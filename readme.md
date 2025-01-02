@@ -102,7 +102,7 @@ This is a simple RESTful API for managing books in a bookstore. The app allows y
 1. Clone the repository:
 
 ```sh
-  git clone <repository-url>
+  git clone https://github.com/gautam84/book-store-crud.git
 ```
 
 2. Install dependencies:
