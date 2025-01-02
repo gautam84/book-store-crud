@@ -61,19 +61,6 @@ This is a simple RESTful API for managing books in a bookstore. The app allows y
 - **URL:** `/books/:id`
 - **Method:** `PUT`
 - **Description:** Updates an existing book by ID.
-- **Response:**
-
-  ```json
-  [
-    {
-      "_id": "<book_id>",
-      "title": "Book Title",
-      "author": "Book Author",
-      "genre": "Book Genre",
-      "publishedYear": 2021
-    }
-  ]
-   ```
 - **Request Body:**
 
   ```json
@@ -126,8 +113,8 @@ This is a simple RESTful API for managing books in a bookstore. The app allows y
 
 3. Create a `.env` file in the root directory and add your MongoDB URI and port:
 ``` 
-    MONGO_URI=your_mongodb_uri
-    PORT=5000
+  MONGO_URI=your_mongodb_uri
+  PORT=5000
 ```
 
 2. Start the server:
